@@ -20,7 +20,7 @@ int main()
 	std::cout << std::endl;
 	for(int i = 0; i < size; ++i){
 		for(int j = 0; j < size; ++j){
-			std::cout << arr[i][j] << "  ";
+			std::cout << arr[j][size - 1 - j] << "  ";
 		}
 		std::cout << std::endl;
 		delete[] arr[i];
